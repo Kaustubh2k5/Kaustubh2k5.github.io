@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"long cang"; 
+    overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    /* background-image: linear-gradient(#9ABAC1,#F2F6F7); */
+    background: #9ABAC1;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.logo{
+    height: 15px;
+    margin-left: 5px;
+}
+
+.socials{
+    overflow-y: hidden;
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+ul{
+  display: flex;
+}
+#division{
+    width: 96vw;
+    height: 0px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 1.5vw;
+}
+i{
+    color: black;
+
+    overflow-y: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#title h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    animation: entry3 1s;
+}
+#pfpimg{
+    margin-left: 40px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    height: 70px;
+    width: 70px;
+}
+#pfpdi{
+    display: flex ;
+    justify-content: flex-start;
+    
+}
+#stroke{
+    height: 55px;
+    width: 35px;
+    margin-left: 15px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-y: hidden;
+    margin: 0 10px 10px 10px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #c3e4f7;
+    background-size:180%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-image: url(/Illustration2.jpg);
+  }
+  
+  .cards .green {
+    background-size: cover;
+    background-image: url(/IMG_20240108_205809\ \(1\).jpg);
+    background-position-x: center;
+  }
+  
+  .cards .card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 420px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card1 p.tip {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -ms-scroll-snap-y: none;
+    z-index: 1;
+    position: relative;
+    top: 5%;
+    overflow-y: none;
+    
+
+    
+  }
+  
+  .cards .card1 p.second-text {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  
+  .cards .card1:hover {
+    transform: scale(1.1, 1.1);
+    
+  }
+  .cards .card1:hover img {
+    transform: scale(1, 1);
+    
+  }
+  
+  .cards:hover > .card1:not(:hover) {
+    /* filter: blur(10px); */
+    transform: scale(1, 1);
+  }
+  .cards:hover{
+    border-radius: 10px;
+  }
+  #monke{
+    margin-left: 30px;
+    height: 450px;
+  }
+  #mtext{
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+  }
+  #he1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding-right: 2px;
+  }
+  .aboutbar{
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  #line1{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 0px;
+    width: 80vw;
+    border: rgb(37, 36, 36);
+    border-width: 1px;
+    border-style: solid;
+  }
+#aboutpara{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  justify-content: center;
+}
+#he2{
+  margin-left: 20px;
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+.portbar{
+  display: flex;
+  /* flex-wrap: wrap; */
+
+}
+#line2{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 0px;
+  height: 0px;
+  width: 60vw;
+  border: rgb(37, 36, 36);
+  border-width: 1px;
+  border-style: solid;}
+
+  #portpara{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    justify-content: center;}
+.wukang{
+  height: 1500px;
+}
+.wukeng{
+  display: inline;
+}
+
+.card {
+  width: 90vw;
+  position: relative;
+  left: 3.4vw;
+  right: 5vw;
+  height: 254px;
+  border-radius: 4px;
+  background: #9abac1;
+  display: flex;
+  gap: 0px;
+  padding: .4em;
+  overflow-y: hidden;
+}
+
+.card p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: rgba(153, 170, 187, 0.816)c1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p:hover {
+  flex: 4;
+}
+
+.card p span {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  /* transform: rotate(-90deg); */
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ff568e;
+  letter-spacing: .1em;
+}
+
+.card p:hover span {
+  transform: rotate(0);
+}
+.card img{
+  height: 354px;
+  width: 404px;
+  position: relative;
+  left: -10px;
+}
+#about{
+  animation: entry 2s;
+  position: relative;
+}
+#art{
+  position: relative;
+  animation: entry2 2s;;
+}
+@keyframes entry {
+  from{
+    right: 1000px;
+  }
+  to{
+    right: 0px;
+  }
+}
+@keyframes entry2 {
+  from{
+    left: 1000px;
+  }
+  to{
+    left: 0px;
+  }
+}
+/* @keyframes entry3 {
+  from{
+    top: -1000px;
+  }
+  to{
+    top:0 ;
+  }
+  
+} */
+
+footer{
+  background:#9abac183;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+footer p{
+position: relative;
+top: 5px;
+}
+footer i{
+  color: red;
+}
+footer span{
+  height: 5px;
+}
